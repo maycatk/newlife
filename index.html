@@ -1,11 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>hello</title>
-	<link rel="stylesheet" href="css.css" type="text/css">
-</head>
-<body>
-	<div class="one">hello !</div>
-</body>
+ <head> 
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <title>网易教育产品部</title> 
+  <link href="reset.css" type="text/css" rel="stylesheet" /> 
+  <link href="style.css" type="text/css" rel="stylesheet" /> 
+ </head> 
+ <body> 
+<!--<div class="m-mask">&nbsp;</div> -->
+<!-- 登陆弹出框 --> 
+<!--
+<div class="m-login m-popbox">
+    <form action="http://study.163.com/webDev/login.htm" method="get">
+        <div class="m-form">
+        <h2 class="u-popbox-h">登录网易云课堂</h2>
+        <div class="m-border">
+        <input type="text" placeholder="账号" class="u-ipt"/></div>
+        <div class="m-border">
+            <input type="password" placeholder="密码" class="u-ipt"/></div>
+        <input type="submit" class="u-submit" value="登陆"/>
+            </div>
+    </form>
+<span class="y-ico ico-bclose" id="m-close"></span>
+</div>  
+-->
+
+<!-- 视频弹出框 --> 
+<!--
+<div class="m-video m-popbox">
+<h2 class="u-popbox-h">请观看下面的视频</h2>
+<video src="http://mov.bn.netease.com/open-movie/nos/mp4/2014/12/30/SADQ86F5S_shd.mp4" controls="controls" width="888px" height="538px" poster="images/vido_post_03.jpg"  >
+您的浏览器不支持视频播放
+</video>
+<span class="y-ico ico-bclose" id="m-close"></span>
+</div>
+-->
+  <!-- 这是小广告 --> 
+  <div class="m-advert"> 
+   <div class="g-box"> 
+    <p>网易云课堂微专业，帮助你掌握专业技能，令你求职或加薪多一份独特优势！ </p>
+    <a href="http://open.163.com/" title="网易云课堂微专业" target="_blank">立即查看&gt;</a> 
+    <button type="button"> <i class="y-ico ico-close"></i><p>不再提醒</p> </button> 
+   </div> 
+  </div> 
+  <!-- 开始内容 头部--> 
+  <div class="m-header"> 
+   <div class="g-box"> 
+    <a class="m-logo" href="index.html" target="_self"><img src="images/logo.png" alt="logo" title="logo" /></a> 
+    <div class="m-follow"> 
+     <button class="z-follow-nor" type="button"> <i class="y-ico ico-follow"></i>关注 </button> 
+     <p>粉丝数</p>
+     <span>21</span> 
+    </div> 
+    <div class="m-nav"> 
+     <ul> 
+      <li><a href="http://open.163.com/" target="_blank" title="网易公开课">网易公开课</a></li> 
+      <li><a href="http://study.163.com/" title="云课堂" target="_blank">云课堂</a></li> 
+      <li><a href="http://www.icourse163.org/" title="中国大学MOOC" target="_blank">中国大学MOOC</a></li> 
+      <li><a class="f-search" href="#" title="查找"><i class="y-ico ico-search"></i></a></li> 
+     </ul> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- banner轮播 --> 
+  <div class="m-banner"> 
+   <a href="http://open.163.com/" alt="网易公开课" title="网易公开课" target="_blank"><img src="images/banner1.jpg" /></a> 
+   <ul class="m-pointer">
+    <li class="current"><a href="#"></a></li> 
+    <li><a href="#"></a></li> 
+    <li><a href="#"></a></li> 
+   </ul> 
+  </div> 
+  <!-- 三列布局 --> 
+  <div class="g-main2"> 
+   <div class="g-box"> 
+    <div class="m-mainbox"> 
+     <i class="y-ico ico-main1"></i> 
+     <div class="m-textbox"> 
+      <h2>网易公开课</h2> 
+      <p>推出国内外名校公开课，涉及广泛的学科，名校老师认真讲解深度剖析，网易视频公开课频道搭建起强有力的网络视频教学平台。</p> 
+      <a href="#" title="了解更多 &gt;">了解更多</a>
+     </div> 
+    </div> 
+    <div class="g-interval">
+     &nbsp;
+    </div> 
+    <div class="m-mainbox"> 
+     <i class="y-ico ico-main2"></i> 
+     <div class="m-textbox"> 
+      <h2>云课堂</h2> 
+      <p>网易旗下大型在线学习平台，该平台面向学习者提供海量免费、优质课程,创新的个性化学习体验，自由开放的交流互动环境。</p> 
+      <a href="#" title="了解更多 &gt;">了解更多</a>
+     </div> 
+    </div> 
+    <div class="g-interval">
+     &nbsp;
+    </div> 
+    <div class="m-mainbox"> 
+     <i class="y-ico ico-main3"></i> 
+     <div class="m-textbox"> 
+      <h2>中国大学MOOC</h2> 
+      <p>是爱课程网携手云课堂打造的在线学习平台，每一个有提升愿望的人,都可以在这里学习中国最好的大学课程，学完还能获得认证证书。</p> 
+      <a href="#" title="了解更多 &gt;">了解更多</a>
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 无缝平铺图片 --> 
+  <div class="m-img-tile"> 
+   <div class="img-content"> 
+    <img src="images/img01.jpg" /> 
+    <img src="images/img02.jpg" /> 
+    <img src="images/img03.jpg" /> 
+    <img src="images/img04.jpg" /> 
+    <img src="images/img05.jpg" /> 
+   </div> 
+  </div> 
+  <!-- left content --> 
+  <div class="g-content"> 
+   <div class="g-box"> 
+    <div class="g-left"> 
+     <div class="m-tab"> 
+      <ul> 
+       <li><a class="m-shadow" href="#">产品设计</a></li> 
+       <li><a class="m-shadow" href="#">编程语言</a></li> 
+      </ul> 
+     </div> 
+     <!-- 课程列表 --> 
+     <div class="m-list"> 
+      <ul> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+       <li class="m-product m-shadow"> <a class="m-listimg" href="#"> <img src="images/Product_img1_03.jpg" alt="产品图片" /> </a> 
+        <div class="g-listxt"> 
+         <p class="g-row1"><a href="#">混音全揭秘 舞曲实战篇 揭秘音混音全揭秘 舞曲实战篇 揭秘音乐揭秘</a> </p> 
+         <p class="u-p9">音频帮</p> 
+         <p class="u-coil u-p9"> <i class="y-ico ico-people"></i>5543</p> 
+         <p class="u-price">￥800.00</p> 
+        </div> </li> 
+      </ul> 
+     </div> 
+     <!--分页器--> 
+     <div class="m-page"> 
+      <a href="#" class="pageprv"> &lt; </a> 
+      <a href="#">1</a> 
+      <a href="#">2</a> 
+      <a href="#">3</a> 
+      <a href="#">4</a> 
+      <a href="#" class="z-crt">5</a> 
+      <a href="#">6</a> 
+      <a href="#">7</a> 
+      <a href="#">8</a> 
+      <a href="#" class="pagenxt"> &gt; </a> 
+     </div> 
+    </div> 
+    <div class="g-right"> 
+     <div class="m-right m-shadow"> 
+      <h2>机构介绍</h2> 
+      <div class="m-vido">
+       <p>观看下面的视频来了解吧:</p>
+       <a href="#" alt="视频处"><img src="images/img-vido_14.jpg" /></a> 
+      </div> 
+     </div> 
+     <div class="m-right m-shadow"> 
+      <h2>最热排行榜</h2> 
+      <ul> 
+       <li class="m-slist"> <a href="#"><img src="images/ioio.jpg" /></a> 
+        <div class="g-right-text"> 
+         <a href="#">舞曲揭秘音乐揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘</a> 
+         <i class="y-ico ico-people">21567</i> 
+        </div> </li> 
+       <li class="m-slist"> <a href="#"><img src="images/ioio.jpg" /></a> 
+        <div class="g-right-text"> 
+         <a href="#">舞曲揭秘音乐揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘</a> 
+         <i class="y-ico ico-people">21567</i> 
+        </div> </li> 
+       <li class="m-slist"> <a href="#"><img src="images/ioio.jpg" /></a> 
+        <div class="g-right-text"> 
+         <a href="#">舞曲揭秘音乐揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘</a> 
+         <i class="y-ico ico-people">21567</i> 
+        </div> </li> 
+       <li class="m-slist"> <a href="#"><img src="images/ioio.jpg" /></a> 
+        <div class="g-right-text"> 
+         <a href="#">舞曲揭秘音乐揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘</a> 
+         <i class="y-ico ico-people">21567</i> 
+        </div> </li> 
+       <li class="m-slist"> <a href="#"><img src="images/ioio.jpg" /></a> 
+        <div class="g-right-text"> 
+         <a href="#">舞曲揭秘音乐揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘</a> 
+         <i class="y-ico ico-people">21567</i> 
+        </div> </li> 
+       <li class="m-slist"> <a href="#"><img src="images/ioio.jpg" /></a> 
+        <div class="g-right-text"> 
+         <a href="#">舞曲揭秘音乐揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘</a> 
+         <i class="y-ico ico-people">21567</i> 
+        </div> </li> 
+       <li class="m-slist"> <a href="#"><img src="images/ioio.jpg" /></a> 
+        <div class="g-right-text"> 
+         <a href="#">舞曲揭秘音乐揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘</a> 
+         <i class="y-ico ico-people">21567</i> 
+        </div> </li> 
+       <li class="m-slist"> <a href="#"><img src="images/ioio.jpg" /></a> 
+        <div class="g-right-text"> 
+         <a href="#">舞曲揭秘音乐揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘</a> 
+         <i class="y-ico ico-people">21567</i> 
+        </div> </li> 
+       <li class="m-slist"> <a href="#"><img src="images/ioio.jpg" /></a> 
+        <div class="g-right-text"> 
+         <a href="#">舞曲揭秘音乐揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘揭秘</a> 
+         <i class="y-ico ico-people">21567</i> 
+        </div> </li> 
+      </ul>
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="footer"> 
+   <div class="g-ft"> 
+    <div class="m-ft-left"> 
+     <img src="images/footer_logo.png" /> 
+     <p>&copy;2014 icourse163.org 浙ICP备08114786号-1</p>
+     <br /> 
+     <p>courses.cn 京ICP备12020869号-2 京公网安备110102000459-2</p> 
+    </div> 
+    <ul class="m-ft-right"> 
+     <li> <h3>友情链接:</h3> <a href="#">网易公开课</a><br /> <a href="#">网易云课堂</a><br /> <a href="#">中国大学MOOC</a> </li> 
+     <li> <h3>我们:</h3> <a href="#">关于</a><br /> <a href="#">联系</a><br /> <a href="#"><i class="y-ico ico-sns-weibo"></i>关注</a> </li> 
+     <li> <h3>更多:</h3> <a href="#">常见问题</a><br /> <a href="#">意见反馈</a> </li> 
+    </ul> 
+   </div> 
+  </div>  
+ </body>
 </html>
