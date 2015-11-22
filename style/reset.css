@@ -25,14 +25,3 @@ a{text-decoration: none;color: #333}
 a:hover{text-decoration: none;color: #39a030;}
 a,button{cursor:pointer;}
 i,span{display: inline-block;}
-/* == clearfix == */ 
-.clearfix:after { 
-    content: "."; 
-    display: block; 
-    height: 0; 
-    clear: both; 
-    visibility: hidden; 
-} 
-.clearfix {display: inline-block;} 
-* html .clearfix {height: 1%;} 
-.clearfix {display: block;}

@@ -1,6 +1,6 @@
 /*图片精灵*/
 .y-ico {
-    background: url("images/ico.png") no-repeat;
+    background: url("../images/ico.png") no-repeat;
     background-size: 109px 245px;
 }
 /*响应小屏模块*/
@@ -607,7 +607,7 @@
     border-width: 0;
     cursor: pointer;
     box-shadow: 3px 3px 0px #d5e3da;
-    background: url("images/btn-x_03.jpg") repeat-x;
+    background: url("../images/btn-x_03.jpg") repeat-x;
 }
 /* 视频弹窗 */
 .m-video {
