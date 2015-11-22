@@ -1,13 +1,17 @@
 /*图片精灵*/
+
 .y-ico {
     background: url("../images/ico.png") no-repeat;
     background-size: 109px 245px;
 }
+
+
 /*响应小屏模块*/
+
 .g-box {
     width: 1206px;
     margin: 0 auto;
-/*    background: red;*/
+    /*    background: red;*/
 }
 
 @media screen and (max-width:1205px) {
@@ -21,11 +25,17 @@
     width: 11px;
     background-position: -2px -104px;
 }
+
+
 /*阴影模块*/
+
 .m-shadow {
     box-shadow: 0px 1px 2px #d4d3d3;
 }
+
+
 /*小广告模块*/
+
 .m-advert {
     width: 100%;
     height: 36px;
@@ -55,7 +65,9 @@
     background-position: -2px -69px;
 }
 
+
 /*开始内容头部*/
+
 .m-header {
     width: 100%;
     height: 89px;
@@ -69,7 +81,10 @@
     width: 234px;
     line-height: 89px;
 }
+
+
 /*关注模块*/
+
 .m-follow {
     display: inline-block;
     margin-top: 28px;
@@ -77,7 +92,10 @@
     font-family: "宋体";
     font-size: 12px;
 }
+
+
 /*未关注状态*/
+
 .z-follow-nor {
     border-radius: 2px;
     padding: 4px 9px;
@@ -104,7 +122,10 @@
 .m-follow span {
     margin-left: 7px;
 }
+
+
 /*导航*/
+
 .m-nav {
     float: right;
     height: 89px;
@@ -121,7 +142,7 @@
     float: left;
     height: 89px;
     padding: 0px 20PX;
-    font: 16px/89px "Hiragino Sans GB","微软雅黑";
+    font: 16px/89px "Hiragino Sans GB", "微软雅黑";
     color: #666;
 }
 
@@ -141,7 +162,9 @@
     background-position: -2px -31px;
 }
 
+
 /*轮播banner*/
+
 .m-banner {
     width: 100%;
     height: 460px;
@@ -172,11 +195,14 @@
     background: #fff;
 }
 
-.m-pointer a:hover,.m-pointer .current a {
+.m-pointer a:hover,
+.m-pointer .current a {
     background: #333;
 }
 
+
 /*三列布局*/
+
 .g-main2 {
     width: 100%;
     height: 295px;
@@ -220,7 +246,10 @@
 .m-mainbox a:hover {
     text-decoration: underline;
 }
+
+
 /*小屏*/
+
 @media screen and (max-width:1205px) {
     .m-mainbox p {
         width: 174px;
@@ -249,7 +278,10 @@
     width: 80px;
     background-position: -29px -164px;
 }
+
+
 /* 居中平铺图片*/
+
 .m-img-tile {
     width: 100%;
     height: 220px;
@@ -270,12 +302,15 @@
 .g-content {
     width: 100%;
     margin: 0 auto;
-/*    background: yellow;*/
+    /*    background: yellow;*/
 }
+
+
 /*  左边内容  */
 
 
 /*切换标签模块*/
+
 .m-tab {
     font-size: 0;
     margin-bottom: 30px;
@@ -295,7 +330,10 @@
     color: #fff;
     background: #39a030;
 }
+
+
 /* 课程列表 */
+
 .g-left {
     float: left;
     width: 960px;
@@ -374,13 +412,16 @@
     font-weight: bold;
     color: #ff3f00;
 }
+
+
 /* 分页器 */
+
 .m-page {
     float: right;
     margin-top: 32px;
     height: 20px;
     line-height: 20px;
-/*    background: red;   */
+    /*    background: red;   */
 }
 
 .m-page a {
@@ -399,16 +440,20 @@
     color: #39a030;
 }
 
-.m-page .pageprv,.m-page .pagenxt {
+.m-page .pageprv,
+.m-page .pagenxt {
     color: #fff;
     background: #9dd8b1;
 }
+
+
 /*right*/
+
 .g-right {
     float: right;
     width: 225px;
     height: auto;
-/*    background: yellow;*/
+    /*    background: yellow;*/
 }
 
 .m-right {
@@ -471,7 +516,10 @@
 .g-right-text a {
     font-size: 14px;
 }
+
+
 /*底部*/
+
 .footer {
     float: left;
     width: 100%;
@@ -532,7 +580,9 @@
     margin-top: 8px;
 }
 
+
 /*弹出模块*/
+
 .m-mask {
     z-index: 1200;
     background-color: #000;
@@ -552,9 +602,12 @@
     top: 50%;
     left: 50%;
     background: #fff;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
+
+
 /*登陆*/
+
 .m-login {
     height: 288px;
     width: 387px;
@@ -609,7 +662,10 @@
     box-shadow: 3px 3px 0px #d5e3da;
     background: url("../images/btn-x_03.jpg") repeat-x;
 }
+
+
 /* 视频弹窗 */
+
 .m-video {
     padding: 30px 30px 40px 30px;
 }
