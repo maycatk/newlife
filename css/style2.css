@@ -348,7 +348,7 @@
 .footer li{
     display: inline-block;
     list-style: none;
-    font-size: 0.45em;
+    font-size: 1em;
     color: grey;
 }
 
